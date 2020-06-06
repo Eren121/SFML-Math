@@ -3,6 +3,7 @@
 
 #include <array>
 #include <tuple>
+#include <cstddef>
 
 namespace sf
 {
@@ -142,7 +143,7 @@ namespace sf
             : container(container),
               offset(offset) {}
 
-        Iterator(T& container, nullptr_t)
+        Iterator(T& container, std::nullptr_t)
             : container(container),
               offset(IntrospectionHelper<T>::Size) {}
 
