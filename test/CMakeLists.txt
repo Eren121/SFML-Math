@@ -15,5 +15,5 @@ add_executable(${EXE}
     ${TESTS_MAIN}
     ${TESTS_SRC})
 
-target_include_directories(${EXE} PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/..)
+target_include_directories(${EXE} PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/../include)
 target_link_libraries(${EXE} sfml-system sfml-graphics)
