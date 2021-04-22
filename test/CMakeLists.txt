@@ -8,7 +8,8 @@ set(TESTS_SRC
     do_not_conflict.cpp
     mixed_types.cpp
     with_scalar.cpp
-    to_string.cpp)
+    to_string.cpp
+        algebra_overloads.cpp)
 
 add_executable(${EXE}
     ${TESTS_MAIN}

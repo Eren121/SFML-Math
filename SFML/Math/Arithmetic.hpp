@@ -1,5 +1,5 @@
-#ifndef SFML_MATH_VECTORARITHMETIC_HPP
-#define SFML_MATH_VECTORARITHMETIC_HPP
+#ifndef SFML_MATH_ARITHMETIC_HPP
+#define SFML_MATH_ARITHMETIC_HPP
 
 ////////////////////////////////////////////////////////////
 /// \file
@@ -26,16 +26,16 @@
 namespace sfmath
 {
 #   define SFML_MATH_OPERATOR +
-#   include "ArithmeticMacro.hpp"
+#   include "ArithmeticMacro.inl"
 
 #   define SFML_MATH_OPERATOR -
-#   include "ArithmeticMacro.hpp"
+#   include "ArithmeticMacro.inl"
 
 #   define SFML_MATH_OPERATOR *
-#   include "ArithmeticMacro.hpp"
+#   include "ArithmeticMacro.inl"
 
 #   define SFML_MATH_OPERATOR /
-#   include "ArithmeticMacro.hpp"
+#   include "ArithmeticMacro.inl"
 }
 
 #undef SFML_MATH_DISABLE_INCLUDE_PROTECTION
