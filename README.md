@@ -22,7 +22,7 @@ int main()
     cout << myVec2 << endl;
     cout << length(myVec2) << ", " << length(myVec3) << endl;
     cout << length2(myVec2) << endl;
-    cout << dot(myVec3, {0, 0, 1}) << endl;
+    cout << dot(myVec3, sf::Vector3i{0, 0, 1}) << endl;
 
     cout << myVec2 << endl;
 
