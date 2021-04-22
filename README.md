@@ -47,6 +47,6 @@ All these macro are not defined by default.
 | SFML_MATH_DISABLE_STREAM_OUTPUT | Disable `operator<<`      |
 | SFML_MATH_DISABLE_ALGEBRA | Disable algebra (`dot`, `length`, ...) |
 
-This disable integration in namespace `sf`. But the functions are always accessible using in namespace `sfmath`.
-So even when disabled, you can always use `using namespace sfmath` to use these functionalities.
+This disable integration in namespace `sf`. But the functions are always accessible in namespace `sfmath`.
+So even when disabled, you can always use `using namespace sfmath;` to use these functionalities.
 
