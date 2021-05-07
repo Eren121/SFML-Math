@@ -7,7 +7,6 @@ set(TESTS_MAIN catch_main.cpp)
 set(TESTS_SRC
     do_not_conflict.cpp
     mixed_types.cpp
-    with_scalar.cpp
     to_string.cpp
         algebra_overloads.cpp)
 

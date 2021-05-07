@@ -128,4 +128,7 @@ operator SFML_MATH_OPERATOR(const L &lhs, const sf::Vector3<R> &rhs)
 #undef SFML_MATH_OPERATOR
 #undef SFML_MATH_ASSIGN_OPERATOR
 
+#undef SFML_MATH_CONCAT2
+#undef SFML_MATH_CONCAT
+
 #endif
