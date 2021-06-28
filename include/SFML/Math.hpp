@@ -35,6 +35,14 @@ namespace sf
     using sfmath::length;
     using sfmath::dot;
     using sfmath::cross;
+    using sfmath::normalize;
+
+    template<typename T>
+    bool zero(const sf::Vector2<T>& v) { return v.x == T(0) && v.y == T(0); }
+
+    template<typename T>
+    bool zero(const sf::Vector3<T> &v) { return v.x == T(0) && v.y == T(0) && v.z == T(0); }
+
 #endif
 
 #ifndef SFML_MATH_DISABLE_UTILITY

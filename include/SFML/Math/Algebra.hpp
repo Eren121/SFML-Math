@@ -76,6 +76,18 @@ namespace sfmath
     {
         return dot(v, v);
     }
+
+    template<typename T>
+    inline float distance(const sf::Vector2<T> &a, const sf::Vector2<T> &b)
+    {
+        return length(a - b);
+    }
+
+    template<typename T>
+    inline sf::Vector2<T> normalize(const sf::Vector2<T> &v)
+    {
+        return v / length(v);
+    }
 }
 
 #endif
